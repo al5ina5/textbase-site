@@ -11,7 +11,7 @@ If you have questions about anything related to textbase.js, you're always welco
 - [NodeJS](http://nodejs.org/)
 - MacOS, Windows (including WSL), and Linux are supported
 
-# Setup
+## Setup
 
 Install `textbase` in your project:
 

@@ -1,14 +1,14 @@
 {
   "name": "textbase-site",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Sebastian Alsina <alsinas@me.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "textbase dev",
-    "build": "textbase"
+    "start": "textbase",
+    "build": "textbase build"
   },
   "dependencies": {
-    "textbase": "^1.0.0-beta.4"
+    "textbase": "latest"
   }
 }
