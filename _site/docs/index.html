@@ -9,7 +9,21 @@
     <meta name="A Fast, Static Website" />
 
     <link rel="stylesheet" href="/style.css">
+
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/nord.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+            })
+        })
+    </script>
 </head>
 
 <body>
@@ -38,7 +52,7 @@
         <li><code>build</code> - Runs <code>textbase build</code> which builds the application for production usage.</li>
     </ul>
     <p>textbase.js is built around the concept of pages. A page is a <code>.md</code> file that contains a simple mix of plain text, markdown, and HTML in the <code>pages</code> directory.</p>
-    <p>Pages are associated with a route based on their file name. For example <code>pages/about.md</code> is mapped to <code>/about.html</code>.</p>
+    <p>Pages are associated with a route based on their file name. For example <code>pages/about.md</code> is mapped to <code>/about</code>. You can read more about <a href="/docs/routing">routing here</a>.</p>
     <p>Create a <code>pages</code> directory inside your project.</p>
     <p>Populate <code>./pages/index.md</code> with the following contents:</p>
     <pre><code># Header

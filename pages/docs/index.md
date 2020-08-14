@@ -35,7 +35,7 @@ These scripts refer to the different stages of developing an application:
 
 textbase.js is built around the concept of pages. A page is a `.md` file that contains a simple mix of plain text, markdown, and HTML in the `pages` directory.
 
-Pages are associated with a route based on their file name. For example `pages/about.md` is mapped to `/about.html`.
+Pages are associated with a route based on their file name. For example `pages/about.md` is mapped to `/about`. You can read more about [routing here](/docs/routing).
 
 Create a `pages` directory inside your project.
 

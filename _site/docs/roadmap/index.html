@@ -9,7 +9,21 @@
     <meta name="A Fast, Static Website" />
 
     <link rel="stylesheet" href="/style.css">
+
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/nord.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightBlock(block);
+            })
+        })
+    </script>
 </head>
 
 <body>
@@ -20,13 +34,16 @@
     <h2 id="todo">To-do</h2>
     <ul>
         <li>Get my first backer! 🥳</li>
+        <li>Optimize code, comment, and simplify library for easy understanding.</li>
         <li>Add better support for <code>fontawesome</code> and <code>glyphicon</code>.</li>
         <li>Add support for template languages.</li>
+        <li>Add more preset templates.</li>
         <li>Add the ability to add per-page meta information, such as <code>&lt;title&gt;</code> and other variables.</li>
         <li>Create front-end desktop 'blogging' application in Electron for textbase.js.</li>
     </ul>
     <h2 id="completed">Completed ✅</h2>
     <ul>
+        <li>Implement a README.md to the main repo.</li>
         <li>Add basic <code>fontawesome</code> support.</li>
         <li>Add support for nested page routing.</li>
         <li>Remove <code>.html</code> extension from generated web-pages.</li>
