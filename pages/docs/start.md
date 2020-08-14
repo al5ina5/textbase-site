@@ -7,7 +7,7 @@ We've created a 'blank' template, which sets up everything automatically for you
 To create a project with `npx`, run:
 
 ```
-npx create-textbase-app
+npx create-textbase-app my-app
 ```
 
 After the installation is complete, navigate into your project and start the application with `npm start`. Try editing pages/index.md and see the result on your browser.

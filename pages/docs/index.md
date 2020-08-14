@@ -34,4 +34,7 @@ Next, head over to the [Getting Started](/docs/start) for an easy setup tutorial
 - [Deploy](/docs/options)
 - [FAQ](/docs/faq)
 - [Roadmap](/docs/roadmap)
+- [Back this Project](/back)
 - [Routes Directory](/_routes.html)
+
+<br /> [&larr; Home](/)
