@@ -28,4 +28,8 @@ The router supports nested files. If you create a nested folder structure files 
 
 You can link between pages and routes using markdown or html. For example, this example assumes you would like to link to a page located at `pages/about.md`.
 
+# Route Directory
+
+By default, textbase.js websites will be generated with a `/_routes.html` route that shows a list of all the route on the website. You can view this website's [route directory here](/_pages.html).
+
 <br/> [&larr; Back](/docs)
