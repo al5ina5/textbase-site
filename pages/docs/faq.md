@@ -2,8 +2,20 @@
 
 You're always welcome [contact us](/contact) with questions or comments about textbase.js, but here's some frequently asked questions that might help you faster than we can.
 
-#### **What is textbase.js?**
+#### What is textbase.js?
 
-textbase.js is a tool to develop near-perfect static websites.
+textbase.js is a tool to develop near-perfect static websites using Markdown. textbase.js is built in NodeJS to empower developers build a website from start to deployment in minutes.
+
+#### Is textbase.js for me?
+
+textbase.js is for **everyone** who wants to build powerful and static websites, blogs, documentation, with low overhead and high customizability.
+
+#### Does textbase.js require special hosting configuration or environments?
+
+Not at all. textbase.js spits out plain html _plain html, css, and js_. You can read more about [deployments here](/docs/deploy).
+
+#### Is textbase.js like Jekyll or 11ty?
+
+Precisely, but we tried to make it even easier. textbase.js aims to be a smart tool that can transform your words into a website.
 
 <br/> [&larr; Back](/docs)

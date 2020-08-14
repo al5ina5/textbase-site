@@ -1,6 +1,6 @@
 # Deployments
 
-textbase.js generated your site in _plain html, css, and js._ That means there is no special set-up or strange configuration required to get your project running. Simply "drag-and-drop" your `_site` folder and your website will online.
+textbase.js generates your site in _plain html, css, and js._ That means there is no special set-up or strange configuration required to get your project running. Simply "drag-and-drop" your `_site` folder and your website will online.
 
 ### Right out of the box, this includes:
 
@@ -34,6 +34,6 @@ Using [Netlify Drop](https://app.netlify.com/drop), deploy your website worldwid
 
 textbase.js websites can also be deployed on more classic set-ups including ftp upload based set-ups, apache, nginx, express.js.
 
-The textbase.js team offers free assistance with deployments to all of our [Patrons and backers](/back).
+The textbase.js team offers free assistance with deployments to all of our [Patrons and backers](/back), but if you're having trouble, you're more than welcome to [contact us](/contact).
 
 <br />[&larr; Back](/docs)

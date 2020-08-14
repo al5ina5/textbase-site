@@ -64,4 +64,5 @@ In addition, any textbase.js application is ready for production from the start.
 - [Routing](/docs/routing)
 - [Templates](/docs/templates)
 - [Options](/docs/options)
+- [Deploy](/docs/options)
 - [Roadmap](/docs/roadmap)
