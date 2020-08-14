@@ -9,6 +9,6 @@
     "build": "textbase build"
   },
   "dependencies": {
-    "textbase": "/Users/alsinas/Projects/textbase"
+    "textbase": "latest"
   }
 }
