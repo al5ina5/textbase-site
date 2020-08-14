@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docs</title>
+
+    <link rel="stylesheet" href="/style.css">
+    <!-- <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"> -->
+
+</head>
+
+<body>
+    <!--  -->
+    <h1 id="templates">Templates</h1>
+    <p>Markdown</p>
+    <h2 id="templatesintextbasejsarereallysimple">Templates in textbase.js are really simple.</h2>
+    <p>Templates in textbase.js are made just like standard html5 websites. Your templates <code>index.html</code> is responsible for the result of every page generated from the <code>./pages</code> folder.</p>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Docs&lt;/title&gt;
+
+    &lt;link rel="stylesheet" href="./style.css"&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    {{{html}}}
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+    <p>Good ol' plain HTML.</p>
+    <p>You'll notice the <code>&lt;body&gt;</code> of the templates <code>index.html</code> is nearly empty. During build time, the markdown in your <code>/pages/*.md</code> will be plugged into <code>{{{html}}}</code> as carefully crafted HTML.</p>
+    <p>You'll also notice we've linked a stylesheet.</p>
+    <p>At this point, your template is just 2 files.</p>
+    <pre><code>🗂 templates
+📂 ---- yourtemplate
+📄 -------- index.html
+📄 -------- style.css
+</code></pre>
+    <h2 id="classlessstyling">Classless Styling</h2>
+    <p>Classless styling is the <em>new</em> hip way to style your pages effectively in the absolutely way possible.</p>
+    <blockquote>
+        <p><strong>NOTE</strong> textbase.js's default is a modified version of the classless css framework <a href="https://newcss.net/">new.css</a>.</p>
+    </blockquote>
+    <p>Since the markdown you write in your <code>./pages</code> will be generated into bare html (no classes by default), we recommend style html's default tags, such as <code>h1</code>, <code>h2</code>, <code>p</code>, <code>code</code> and more.</p>
+    <pre><code>h1 {
+    font-size: 2.25rem
+}
+
+h2 {
+    font-size: 1.85rem
+}
+
+h3 {
+    font-size: 1.55rem
+}
+</code></pre>
+    <p>We suggest starting your textbase.js website with our base css styling, and adding your custom styles as you desire. You can do so by importing <code>textbase-light</code> or <code>textbase-dark</code> into your <code>./style.css</code> file.</p>
+    <pre><code>@import "https://unpkg.com/textbase-light";
+@import "https://unpkg.com/textbase-dark";
+</code></pre>
+    <h2 id="importingyourtemplate">Importing your template</h2>
+    <p>Once your template is ready to go, you'll need to set it as the active template.</p>
+    <p>Create a <code>./_textbase.js</code> file in you project root. This file should be adjacent to your <code>./pages</code> folder.</p>
+    <blockquote>
+        <p><strong>TIP</strong> You can view all the options available in <code>./_textbase.js</code> <a href="/options.html">here</a>.</p>
+    </blockquote>
+    <p>Populate <code>./pages/index.md</code> with the following contents:</p>
+    <pre><code>modules.exports = {
+    themeFolder: './templates/yourtheme'
+}
+</code></pre>
+    <!-- <footer>
+        
+    </footer> -->
+</body>
+
+</html><script src="/reload/reload.js"></script>

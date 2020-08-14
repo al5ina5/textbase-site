@@ -1,0 +1,14 @@
+{
+  "name": "textbase-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sebastian Alsina <alsinas@me.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "textbase dev",
+    "build": "textbase"
+  },
+  "dependencies": {
+    "recursive-readdir": "^2.2.2"
+  }
+}
