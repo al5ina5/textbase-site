@@ -2210,10 +2210,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-textbase@latest:
-  version "1.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/textbase/-/textbase-1.0.0-beta.4.tgz#728a75580c7ceeb0d9faa5b92d69ef1b1bea1440"
-  integrity sha512-rzIXNv7IU9kANlwe7ICOe4X+6OruEm7dn0vS+sTYdDjStcDJE8dyW3MkN7vTySdpXshMD0Yn8f1BllHyRdxnvQ==
+textbase@1.0.0-beta.5:
+  version "1.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/textbase/-/textbase-1.0.0-beta.5.tgz#139bfac61076b65fed986afcab0dbf67e60bbd53"
+  integrity sha512-5K8/17E8vA0wan0uAmOHUEMWV5FvZ9YPhkdGoNVOH9ufL79OIjHWFKMPrUnjPqWEw8+6j1nsW3DipVNzJ+JWpg==
   dependencies:
     add "^2.0.6"
     async "^3.2.0"
