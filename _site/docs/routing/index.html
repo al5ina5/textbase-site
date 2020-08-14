@@ -38,9 +38,11 @@
     <p><code>pages/blog/first-post.md → /blog/first-post</code>
         <code>pages/blog/section/first-post.md → /blog/section/first-post</code></p>
     <h2 id="linkingbetweenpages">Linking between pages</h2>
-    <pre><code>[About Page](/about)
+    <pre><code class="md language-md">[About Page](/about)
 </code></pre>
-    <p>You can link between pages and routes using markdown or html. For example, this example assumes you would like to link to a page located at <code>pages/about.md</code>.</p>
+    <pre><code class="html language-html">&lt;a href="/about"&gt;About Page&lt;/a&gt;
+</code></pre>
+    <p>You can link between pages and routes using markdown or html. For example, this example creates a link titled <a href="/about">About Page</a> that leads to <code>pages/about.md</code>.</p>
     <h1 id="routedirectory">Route Directory</h1>
     <p>By default, textbase.js websites will be generated with a <code>/_routes.html</code> route that shows a list of all the route on the website. You can view this website's <a href="/_pages.html">route directory here</a>.</p>
     <p><br /> <a href="/docs">&larr; Back</a></p>

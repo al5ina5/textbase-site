@@ -22,11 +22,15 @@ The router supports nested files. If you create a nested folder structure files 
 
 ## Linking between pages
 
-```
+```md
 [About Page](/about)
 ```
 
-You can link between pages and routes using markdown or html. For example, this example assumes you would like to link to a page located at `pages/about.md`.
+```html
+<a href="/about">About Page</a>
+```
+
+You can link between pages and routes using markdown or html. For example, this example creates a link titled [About Page](/about) that leads to `pages/about.md`.
 
 # Route Directory
 
