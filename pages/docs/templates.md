@@ -88,3 +88,5 @@ modules.exports = {
     themeFolder: './templates/yourtheme'
 }
 ```
+
+<br/> [&larr; Back](/docs)

@@ -34,8 +34,8 @@
 </code></pre>
     <p>These scripts refer to the different stages of developing an application:</p>
     <ul>
-        <li><code>dev</code> - Runs <code>textbase dev</code> which starts textbase.js in development mode</li>
-        <li><code>build</code> - Runs <code>textbuild</code> which builds the application for production usage</li>
+        <li><code>start</code> - Runs <code>textbase</code> which starts textbase.js in development mode.</li>
+        <li><code>build</code> - Runs <code>textbase build</code> which builds the application for production usage.</li>
     </ul>
     <p>textbase.js is built around the concept of pages. A page is a <code>.md</code> file that contains a simple mix of plain text, markdown, and HTML in the <code>pages</code> directory.</p>
     <p>Pages are associated with a route based on their file name. For example <code>pages/about.md</code> is mapped to <code>/about.html</code>.</p>
@@ -45,7 +45,7 @@
 # A moving sub-header.
 Your `textbase.js` website is alive.
 </code></pre>
-    <p>To start developing your application run <code>npm run dev</code>. This starts the development server on a random url, such as <code>http://localhost:59321</code>.</p>
+    <p>To start developing your application run <code>npm start</code>. This starts the development server on a random url, such as <code>http://localhost:59321</code>. You can set a specific port by setting <a href="/docs/options">custom options</a>.</p>
     <p>So far, we get:</p>
     <ul>
         <li>Automatic compilation based on your active template.</li>
@@ -59,6 +59,7 @@ Your `textbase.js` website is alive.
         <li><a href="/docs/faq">FAQ</a></li>
         <li><a href="/docs/routing">Routing</a></li>
         <li><a href="/docs/templates">Templates</a></li>
+        <li><a href="/docs/options">Options</a></li>
         <li><a href="/docs/roadmap">Roadmap</a></li>
     </ul>
 </body>

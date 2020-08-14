@@ -30,8 +30,8 @@ Optionally, open `package.json` and add the following `scripts`:
 
 These scripts refer to the different stages of developing an application:
 
-- `dev` - Runs `textbase dev` which starts textbase.js in development mode
-- `build` - Runs `textbuild` which builds the application for production usage
+- `start` - Runs `textbase` which starts textbase.js in development mode.
+- `build` - Runs `textbase build` which builds the application for production usage.
 
 textbase.js is built around the concept of pages. A page is a `.md` file that contains a simple mix of plain text, markdown, and HTML in the `pages` directory.
 
@@ -47,7 +47,7 @@ Populate `./pages/index.md` with the following contents:
 Your `textbase.js` website is alive.
 ```
 
-To start developing your application run `npm run dev`. This starts the development server on a random url, such as `http://localhost:59321`.
+To start developing your application run `npm start`. This starts the development server on a random url, such as `http://localhost:59321`. You can set a specific port by setting [custom options](/docs/options).
 
 So far, we get:
 
@@ -63,4 +63,5 @@ In addition, any textbase.js application is ready for production from the start.
 - [FAQ](/docs/faq)
 - [Routing](/docs/routing)
 - [Templates](/docs/templates)
+- [Options](/docs/options)
 - [Roadmap](/docs/roadmap)

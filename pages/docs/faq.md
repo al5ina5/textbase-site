@@ -5,3 +5,5 @@ You're always welcome [contact us](/contact) with questions or comments about te
 #### **What is textbase.js?**
 
 textbase.js is a tool to develop near-perfect static websites.
+
+<br/> [&larr; Back](/docs)

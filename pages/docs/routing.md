@@ -28,4 +28,4 @@ The router supports nested files. If you create a nested folder structure files 
 
 You can link between pages and routes using markdown or html. For example, this example assumes you would like to link to a page located at `pages/about.md`.
 
-[&larr; Back](/docs)
+<br/> [&larr; Back](/docs)
