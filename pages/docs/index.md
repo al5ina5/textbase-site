@@ -60,4 +60,4 @@ In addition, any textbase.js application is ready for production from the start.
 
 ## Up next...
 
-[Templates](/templates) in textbase.js.
+[Templates](/docs/templates) in textbase.js.
