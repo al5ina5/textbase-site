@@ -9,6 +9,6 @@
     "build": "textbase"
   },
   "dependencies": {
-    "recursive-readdir": "^2.2.2"
+    "textbase": "^1.0.0-beta.4"
   }
 }
