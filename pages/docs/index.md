@@ -23,8 +23,8 @@ Optionally, open `package.json` and add the following `scripts`:
 
 ```
 "scripts": {
-  "dev": "textbase dev",
-  "build": "textbase"
+	"start": "textbase",
+	"build": "textbase build"
 }
 ```
 
