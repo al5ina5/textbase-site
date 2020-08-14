@@ -2050,6 +2050,11 @@ setprototypeof@1.1.1:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
 
+showdown-custom-class@^1.0.0-beta.3:
+  version "1.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/showdown-custom-class/-/showdown-custom-class-1.0.0-beta.3.tgz#8a778ce49fb71f948490f4dc53d760374f076cee"
+  integrity sha512-UWb0V4PNLUV0qPJ0ndV5iE8M588gIOw1ct3rhI4hYsq37wghZXt2XHqPxOj6qBFZetSaL4d8RczA0Jksp8HAYA==
+
 showdown-footnotes@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/showdown-footnotes/-/showdown-footnotes-2.1.2.tgz#dd21994a4e2ffabc24eb266a96cdf7745950795c"
@@ -2210,10 +2215,8 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-textbase@1.0.0-beta.5:
-  version "1.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/textbase/-/textbase-1.0.0-beta.5.tgz#139bfac61076b65fed986afcab0dbf67e60bbd53"
-  integrity sha512-5K8/17E8vA0wan0uAmOHUEMWV5FvZ9YPhkdGoNVOH9ufL79OIjHWFKMPrUnjPqWEw8+6j1nsW3DipVNzJ+JWpg==
+"textbase@file:../textbase":
+  version "1.0.0-beta.6"
   dependencies:
     add "^2.0.6"
     async "^3.2.0"
@@ -2239,6 +2242,7 @@ textbase@1.0.0-beta.5:
     reload "^3.1.0"
     rimraf "^3.0.2"
     showdown "^1.9.1"
+    showdown-custom-class "^1.0.0-beta.3"
     showdown-footnotes "^2.1.2"
     showdown-highlight "^2.1.5"
     yarn "^1.22.4"

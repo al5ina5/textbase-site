@@ -4,12 +4,12 @@ Welcome to the textbase.js documentation!
 
 Rest assure, this'll get you runnin' in no time!
 
-If you have questions about anything related to textbase.js, you're always welcome to ask our community on GitHub Discussions.
+If you have questions, comments, or ideas about anything related to textbase.js, you're always welcome to [contact us](/contact).
 
 ### System Requirements
 
 - [NodeJS](http://nodejs.org/)
-- MacOS, Windows (including WSL), and Linux are supported
+- MacOS, Windows, and Linux are supported
 
 ## Setup
 
@@ -58,6 +58,9 @@ So far, we get:
 
 In addition, any textbase.js application is ready for production from the start.
 
-## Up next...
+## Quick Links
 
-[Templates](/docs/templates) in textbase.js.
+- [FAQ](/docs/faq)
+- [Routing](/docs/routing)
+- [Templates](/docs/templates)
+- [Roadmap](/docs/roadmap)
