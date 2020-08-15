@@ -2232,10 +2232,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-textbase@latest:
-  version "1.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/textbase/-/textbase-1.0.0-beta.13.tgz#fd365cefda991300c03a4d4a74d1bf8b49c0ad24"
-  integrity sha512-ENzoR78oLL8gwf5lUyIZ5HWopZ2KBPx8SUkVcLt5bdBfGiWmwg1FPoVDQFvRkz/jjLnIF5lZHS/PYkrQnsjBww==
+textbase@^1.0.0-beta.14:
+  version "1.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/textbase/-/textbase-1.0.0-beta.14.tgz#7de38e53009d1943a454e3b50925b286d498c720"
+  integrity sha512-tgBgV32CPwM431c+xSalGeRi+REfmdVn10l8QucqqGS2Vs6Vj/5jABVKfROD5Y2wStaQJKHD98VQ289OTwx5Rg==
   dependencies:
     add "^2.0.6"
     async "^3.2.0"
