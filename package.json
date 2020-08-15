@@ -10,7 +10,6 @@
     "build": "textbase build"
   },
   "dependencies": {
-    "textbase": "latest",
-    "yaml": "^1.10.0"
+    "textbase": "latest"
   }
 }

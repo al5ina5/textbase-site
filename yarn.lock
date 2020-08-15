@@ -1679,9 +1679,9 @@ open@^7.0.0, open@^7.1.0:
     is-wsl "^2.1.1"
 
 "opts@>= 1.2.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/opts/-/opts-2.0.0.tgz#c0b2cebdf53eaeafc21ed844e34773758dcf41e2"
-  integrity sha512-rPleeyX48sBEc4aj7rAok5dCbvRdYpdbIdSRR4gnIK98a7Rvd4l3wlv4YHQr2mwPQTpKQiw8uipi/WoyItDINg==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/opts/-/opts-2.0.2.tgz#a17e189fbbfee171da559edd8a42423bc5993ce1"
+  integrity sha512-k41FwbcLnlgnFh69f4qdUfvDQ+5vaSDnVPFI/y5XuhKRq97EnVVneO9F1ESVCdiVu4fCS2L8usX3mU331hB7pg==
 
 os-homedir@^1.0.0:
   version "1.0.2"
@@ -2232,7 +2232,7 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-textbase@^1.0.0-beta.13:
+textbase@latest:
   version "1.0.0-beta.13"
   resolved "https://registry.yarnpkg.com/textbase/-/textbase-1.0.0-beta.13.tgz#fd365cefda991300c03a4d4a74d1bf8b49c0ad24"
   integrity sha512-ENzoR78oLL8gwf5lUyIZ5HWopZ2KBPx8SUkVcLt5bdBfGiWmwg1FPoVDQFvRkz/jjLnIF5lZHS/PYkrQnsjBww==
