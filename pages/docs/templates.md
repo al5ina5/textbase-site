@@ -8,9 +8,9 @@ created: 1597455376010
 
 ## Templates in textbase.js are really simple.
 
-> **NOTE** You can skip most of this process running `textbase eject` in your project directory. This will spit out textbase's default theme to your project directory, allowing you to dissect it directly. This might be a better option if you know what you're doing.
+> **NOTE** You can skip most of this process running `textbase eject` in your project directory. This will spit out textbase.js's default theme to your project directory, allowing you to dissect it directly. This might be a better option if you know what you're doing.
 
-We tried to make sure theming in textbase.js as easy as possible. We didn't want there to a be a learning curve. We wanted to empower you to use the skills you already know to design your textbase.js webiste—not learn new ones.
+We tried to make sure theming in textbase.js as easy as possible. We didn't want there to a be a learning curve. We wanted to empower you to use the skills you already know to design your textbase.js website—not learn new ones.
 
 Templates in textbase.js are made just like standard html5 websites.
 

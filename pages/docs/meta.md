@@ -1,11 +1,12 @@
 ---
 title: Page Meta & Variables - textbase.js
+description: Sometimes you'll need to uniqueify parts of the template, such as the <title> of each of your pages. textbase.js using a familiar YAML syntax to that get done, enabling you to add variables to your pages.
 created: 1597455375996
 ---
 
 # Page Meta & Variables
 
-Sometimes you'll need to uniqueify parts of the template, such as the `<title>` of each of your pages. textbase.js using a familiar YAML syntax to that get that.
+Sometimes you'll need to uniqueify parts of the template, such as the `<title>` of each of your pages. textbase.js using a familiar YAML syntax to that get done, enabling you to add variables to your pages.
 
 ```
 ---

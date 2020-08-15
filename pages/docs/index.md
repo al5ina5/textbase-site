@@ -10,7 +10,7 @@ Welcome to the textbase.js documentation!
 
 Rest assured, this'll get you runnin' in no time!
 
-<!-- > **NOTE** Our website always runs runs the latest, nightly version of textbase.js. Explore it to test the speed, design, and abilty. -->
+<!-- > **NOTE** Our website always runs runs the latest, nightly version of textbase.js. Explore it to test the speed, design, and ability. -->
 
 If you have questions, comments, or ideas about anything related to textbase.js, you're always welcome to [contact us](/contact).
 

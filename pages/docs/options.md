@@ -1,5 +1,7 @@
 ---
 title: Options - textbase.js
+description: Learn how to generate more complex website. Modifying these settings will alter the output contents of `_site` during the build process.
+
 created: 1597455375997
 ---
 
