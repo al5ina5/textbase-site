@@ -7,8 +7,10 @@ created: 1597455375980
 
 ## Email
 
-Send me an email anytime at [sebastian@alsina.xyz](mailto:sebastian@alsina.xyz).1
+Send me an email anytime at [sebastian@alsina.xyz](mailto:sebastian@alsina.xyz).
 
 ## Chat
 
 We invite you to join us on Discord.
+
+<br />[&larr; Home](/)

@@ -19,11 +19,7 @@ After the installation is complete, navigate into your project and start the app
 
 ## Manual Setup
 
-Rest assure, this'll get you runnin' in no time!
-
-If you have questions, comments, or ideas about anything related to textbase.js, you're always welcome to [contact us](/contact).
-
-## Setup
+If you'd rather start without any boilerplate, you can set-up your own project in just a few steps.
 
 Install `textbase` in your project:
 

@@ -44,9 +44,9 @@ At this point, your template is just 2 files.
 
 ```
 🗂 templates
-📂 ---- yourtemplate
-📄 -------- index.html
-📄 -------- style.css
+📂 ——— yourtemplate
+📄 —————— index.html
+📄 —————— style.css
 ```
 
 ## Classless Styling
