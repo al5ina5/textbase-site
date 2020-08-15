@@ -1,3 +1,8 @@
+---
+title: Getting Started - textbase.js
+created: 1597455376008
+---
+
 # Getting Started
 
 ## Automated Setup

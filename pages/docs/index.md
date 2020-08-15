@@ -1,3 +1,8 @@
+---
+title: Documentation - textbase.js
+created: 1597455375313
+---
+
 # Documentation
 
 Welcome to the textbase.js documentation!
@@ -28,10 +33,11 @@ Next, head over to the [Getting Started](/docs/start) for an easy setup tutorial
 ## Quick Links
 
 - [Getting Started](/docs/start)
+- [Page Meta & Variables](/docs/meta)
 - [Routing](/docs/routing)
 - [Templates](/docs/templates)
 - [Options](/docs/options)
-- [Deploy](/docs/options)
+- [Deploy](/docs/deploy)
 - [FAQ](/docs/faq)
 - [Roadmap](/docs/roadmap)
 - [Back this Project](/back)

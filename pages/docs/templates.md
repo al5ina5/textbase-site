@@ -1,3 +1,8 @@
+---
+title: Templates - textbase.js
+created: 1597455376010
+---
+
 # Templates
 
 ## Templates in textbase.js are really simple.

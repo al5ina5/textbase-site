@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Page Meta &amp; Variables - textbase.js</title>
+    <meta name="A Fast, Static Website" />
+
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Highlight.js - Code highlighting. -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/nord.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+    <!-- Highlight.js -->
+</head>
+
+<body>
+    <h1 id="pagemetavariables">Page Meta &amp; Variables</h1>
+    <p>Sometimes you'll need to uniqueify parts of the template, such as the <code>&lt;title&gt;</code> of each of your pages. textbase.js using a familiar YAML syntax to that get that.</p>
+    <pre><code>---
+title: About Us
+---
+</code></pre>
+    <h2 id="plugvariablesintoyourtemplate">Plug Variables into Your Template</h2>
+    <p>Your templates <code>index.html</code> will automatically inject your page options into matching <code>{{page.key}}</code> handlebars. To set the documents <code>&lt;title&gt;</code> based on the title option above, you'd simply:</p>
+    <pre><code>&lt;title&gt;{{page.title}}&lt;/title&gt;
+</code></pre>
+    <p><br /><a href="/docs">&larr; Back</a></p>
+</body>
+
+</html>

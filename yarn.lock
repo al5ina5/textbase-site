@@ -983,6 +983,11 @@ he@^1.1.0, he@^1.2.0:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
+highlight.js@^10.1.2:
+  version "10.1.2"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.1.2.tgz#c20db951ba1c22c055010648dfffd7b2a968e00c"
+  integrity sha512-Q39v/Mn5mfBlMff9r+zzA+gWxRsCRKwEMvYTiisLr/XUiFI/4puWt0Ojdko3R3JCNWGdOWaA5g/Yxqa23kC5AA==
+
 highlight.js@^9.18.1:
   version "9.18.3"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.3.tgz#a1a0a2028d5e3149e2380f8a865ee8516703d634"
@@ -2050,10 +2055,10 @@ setprototypeof@1.1.1:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
 
-showdown-custom-class@^1.0.0-beta.3:
-  version "1.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/showdown-custom-class/-/showdown-custom-class-1.0.0-beta.3.tgz#8a778ce49fb71f948490f4dc53d760374f076cee"
-  integrity sha512-UWb0V4PNLUV0qPJ0ndV5iE8M588gIOw1ct3rhI4hYsq37wghZXt2XHqPxOj6qBFZetSaL4d8RczA0Jksp8HAYA==
+showdown-custom-class@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/showdown-custom-class/-/showdown-custom-class-1.0.0.tgz#f196a99d10eb928fae200f2bd50f8f3a31ea058b"
+  integrity sha512-I70eRrpVDtT0KPAYw8GIdJMitbnu3+gPz4tyrwqwRL8eccrSn/hZa6w9+Li3jYQWyvuelTnTsLd3zEzFZh3e5A==
 
 showdown-footnotes@^2.1.2:
   version "2.1.2"
@@ -2071,7 +2076,14 @@ showdown-highlight@^2.1.5:
     html-encoder-decoder "^1.3.8"
     showdown "^1.9.1"
 
-showdown@^1.4.1, showdown@^1.9.1:
+showdown-icon@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/showdown-icon/-/showdown-icon-2.0.0.tgz#66bf504e60c6e46df87b2251ec4499fd1451db6b"
+  integrity sha1-Zr9QTmDG5G34eyJR7ESZ/RRR22s=
+  dependencies:
+    showdown "^1.7.3"
+
+showdown@^1.4.1, showdown@^1.7.3, showdown@^1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/showdown/-/showdown-1.9.1.tgz#134e148e75cd4623e09c21b0511977d79b5ad0ef"
   integrity sha512-9cGuS382HcvExtf5AHk7Cb4pAeQQ+h0eTr33V1mu+crYWV4KvWAw6el92bDrqGEk5d46Ai/fhbEUwqJ/mTCNEA==
@@ -2216,7 +2228,7 @@ supports-color@^7.1.0:
     has-flag "^4.0.0"
 
 "textbase@file:../textbase":
-  version "1.0.0-beta.6"
+  version "1.0.0-beta.8"
   dependencies:
     add "^2.0.6"
     async "^3.2.0"
@@ -2231,6 +2243,7 @@ supports-color@^7.1.0:
     fs "^0.0.1-security"
     fs-extra "^9.0.1"
     handlebars "^4.7.6"
+    highlight.js "^10.1.2"
     html-minifier "^4.0.0"
     http "^0.0.1-security"
     inquirer "^7.3.3"
@@ -2242,9 +2255,12 @@ supports-color@^7.1.0:
     reload "^3.1.0"
     rimraf "^3.0.2"
     showdown "^1.9.1"
-    showdown-custom-class "^1.0.0-beta.3"
+    showdown-custom-class "^1.0.0"
     showdown-footnotes "^2.1.2"
     showdown-highlight "^2.1.5"
+    showdown-icon "^2.0.0"
+    toml "^3.0.0"
+    yaml "^1.10.0"
     yarn "^1.22.4"
 
 through@^2.3.6:
@@ -2303,6 +2319,11 @@ toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
+
+toml@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/toml/-/toml-3.0.0.tgz#342160f1af1904ec9d204d03a5d61222d762c5ee"
+  integrity sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==
 
 tslib@^1.9.0:
   version "1.13.0"
@@ -2448,6 +2469,11 @@ yallist@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
   integrity sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
+
+yaml@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.0.tgz#3b593add944876077d4d683fee01081bd9fff31e"
+  integrity sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
 
 yargs-parser@^15.0.1:
   version "15.0.1"
