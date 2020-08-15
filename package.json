@@ -5,7 +5,8 @@
   "author": "Sebastian Alsina <alsinas@me.com>",
   "license": "MIT",
   "scripts": {
-    "start": "textbase",
+    "dev": "textbase",
+    "start": "textbase start",
     "build": "textbase build"
   },
   "dependencies": {
