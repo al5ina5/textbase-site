@@ -7,7 +7,7 @@ created: 1597455375980
 
 ## Email
 
-Send me an email anytime at [sebastian@alsina.xyz](mailto:sebastian@alsina.xyz).
+Send me an email anytime at [sebastian@alsina.xyz](mailto:sebastian@alsina.xyz).1
 
 ## Chat
 
