@@ -1,5 +1,6 @@
 ---
 title: Templates - textbase.js
+description: Templates enable you to give your textbase.js app a new feel — or overhaul the UX entirely using simple, familiar, and effective templates.
 created: 1597455376010
 ---
 

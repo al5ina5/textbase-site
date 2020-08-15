@@ -1,4 +1,6 @@
 ---
+title: Routing - textbase.js
+description: textbase.js has a file-system based router built on the concept of pages.
 created: 1597455375999
 ---
 

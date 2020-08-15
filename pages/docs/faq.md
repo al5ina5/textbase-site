@@ -1,10 +1,13 @@
 ---
 title: FAQ - textbase.js
+description: Frequently asked questions about textbase.js. This page might just have the answers you need.
 ---
 
 # FAQ
 
 You're always welcome [contact us](/contact) with questions or comments about textbase.js, but here's some frequently asked questions that might help you faster than we can.
+
+Always be sure to [read the docs](/docs). It most has information that may help you.
 
 #### What is textbase.js?
 

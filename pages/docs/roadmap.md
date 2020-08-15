@@ -1,5 +1,6 @@
 ---
 title: Roadmap - textbase.js
+description: A small list of things this project aims to do and a list of already completed tasks. Help keep us on track.
 created: 1597455376005
 ---
 

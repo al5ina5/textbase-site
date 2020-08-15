@@ -1,5 +1,6 @@
 ---
 title: textbase.js 🧬
+description: textbase.js is a static site generator for developers to build near perfect static website painlessly fast.
 created: 1597455375982
 ---
 

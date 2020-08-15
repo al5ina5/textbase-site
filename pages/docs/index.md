@@ -1,5 +1,6 @@
 ---
 title: Documentation - textbase.js
+description: Learn how to build near perfect static website painlessly fast in the textbase.js documentation. Built in textbase.js.
 created: 1597455375313
 ---
 

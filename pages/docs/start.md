@@ -1,5 +1,6 @@
 ---
 title: Getting Started - textbase.js
+description: Follow this step-by-step guide to get up in running in less than 10 minutes. Automate or manually setup your first textbase.js app.
 created: 1597455376008
 ---
 

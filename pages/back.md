@@ -1,5 +1,6 @@
 ---
 title: Back this Project - textbase.js
+description: textbase.js is free, but development isn't free. If you found this helpful, clever, ingenious, or maybe because you absolutely hate it, consider contributing to great things and back this project and gain access to cool secret stuff!
 created: 1597455375977
 ---
 
@@ -7,7 +8,7 @@ created: 1597455375977
 
 We need backers.
 
-This project is free, but development isn't free. If you found this helpful, clever, ingenious, or maybe because you absolutely hate it, contribute to great things and consider backing this project!
+textbase.js is free, but development isn't free. If you found this helpful, clever, ingenious, or maybe because you absolutely hate it, consider contributing to great things and back this project and gain access to cool secret stuff!
 
 Become a backer, or [just throw a dollar into the Mac fund](https://ko-fi.com/al5ina5).
 

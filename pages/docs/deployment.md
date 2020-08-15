@@ -1,5 +1,6 @@
 ---
 title: Deployment - textbase.js
+description: Learn how to deploy your textbase.js websites worldwide in minutes with these amazing tools.
 created: 1597455376034
 ---
 
