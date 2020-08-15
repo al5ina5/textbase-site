@@ -21,5 +21,3 @@ textbase dev
 ## [Get Started](/docs)
 
 ...or view this website's [GitHub repo](https://github.com/al5ina5/textbase).
-
-1232132321
