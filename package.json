@@ -10,7 +10,7 @@
     "build": "textbase build"
   },
   "dependencies": {
-    "textbase": "^1.0.0-beta.11",
+    "textbase": "^1.0.0-beta.12",
     "yaml": "^1.10.0"
   }
 }

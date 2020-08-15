@@ -1972,6 +1972,11 @@ rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
+rsync@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/rsync/-/rsync-0.6.1.tgz#3681a0098bd8750448f8bf9da1fee09f7763742b"
+  integrity sha1-NoGgCYvYdQRI+L+dof7gn3djdCs=
+
 run-async@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/run-async/-/run-async-2.4.1.tgz#8440eccf99ea3e70bd409d49aab88e10c189a455"
@@ -2227,10 +2232,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-textbase@^1.0.0-beta.9:
-  version "1.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/textbase/-/textbase-1.0.0-beta.9.tgz#8a43956166ef10e3fd32f054dbd80df5051f3f47"
-  integrity sha512-hLindmEYVyaQPr6Q7tVjuwrcg6P1teZ/FoyQ62UsyRCep8LwJOfi2sPWrk3EL9T9OWWmCuJF0WfLYew03jDtYA==
+textbase@^1.0.0-beta.12:
+  version "1.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/textbase/-/textbase-1.0.0-beta.12.tgz#6cf01e9c6473940898b64c538b2c8149987180c2"
+  integrity sha512-Sb8tA3OpWIBxwWIUDMTkLbGcWKfd0cOz+rZ6bpOPwkAoAsI4QjEHDLnKzSNLFa4DmJqy1uY0gmpi7alvcGPgVg==
   dependencies:
     add "^2.0.6"
     async "^3.2.0"
@@ -2256,6 +2261,7 @@ textbase@^1.0.0-beta.9:
     recursive-readdir "^2.2.2"
     reload "^3.1.0"
     rimraf "^3.0.2"
+    rsync "^0.6.1"
     showdown "^1.9.1"
     showdown-custom-class "^1.0.0"
     showdown-footnotes "^2.1.2"
