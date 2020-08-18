@@ -7,3 +7,5 @@ created: 1597455376008
 # TextBase Desktop
 
 Page under construction. Come back soon for more!
+
+For now, head over to the [docs](/docs) to get started.

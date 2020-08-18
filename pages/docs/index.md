@@ -34,8 +34,8 @@ Next, head over to the [Getting Started](/docs/start) for an easy setup tutorial
 ## Quick Links
 
 - [Getting Started](/docs/start)
-- [Page Meta & Variables](/docs/meta)
 - [Routing](/docs/routing)
+- [Page Meta & Variables](/docs/meta)
 - [Templates](/docs/templates)
 - [Options](/docs/options)
 - [Deploy](/docs/deploy)

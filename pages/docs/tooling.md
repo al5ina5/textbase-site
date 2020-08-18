@@ -1,3 +1,7 @@
+---
+title: Tooling - textbase.js
+---
+
 # Tooling
 
 If you're an absolute beginner, fret not! Some of the concepts of the textbase.js may be hard to comprehend.
