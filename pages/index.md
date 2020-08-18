@@ -11,7 +11,7 @@ created: 1597455375982
 Turn your content, words, and ideas into a website. Even a 👶🏼 could do it.
 
 ```
-npm install textbase
+npm install textbase!
 ```
 
 ```

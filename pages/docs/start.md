@@ -6,6 +6,8 @@ created: 1597455376008
 
 # Getting Started
 
+This section is split into 2 sections. Automated setup and manual setup. If you're an absolute beginner, we recommend reading our about our [suggested tooling](/docs/tooling) and using the automated setup to get started, or waiting for the release of [Textbase Desktop](/desktop), which aims to simply these concepts further and enable the common public to use textbase.js with an easy-to-use, point-and-click, static website generator.
+
 ## Automated Setup
 
 We've created a 'blank' template, which sets up everything automatically for you.
