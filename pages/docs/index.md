@@ -14,6 +14,12 @@ Rest assured, this'll get you runnin' in no time!
 
 If you have questions, comments, or ideas about anything related to textbase.js, you're always welcome to [contact us](/contact).
 
+## Introduction
+
+The goals of textbase.js are simple: make it extremely easy to create near-perfect, highly-attractive, super-speedy static websites that can be used for blogs, small business, documentation sites, creative letters, and thousands of other use cases. In simple terms, it converts your plain text ([Markdown](/markdown)) into a working website that you can deploy worldwide to the internet in minutes.
+
+All you need to do is type, and with a single command you've got a website. No coding necessary.
+
 ### System Requirements
 
 - [NodeJS](http://nodejs.org/)
