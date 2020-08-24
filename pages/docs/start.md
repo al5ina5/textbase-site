@@ -4,15 +4,18 @@ description: Follow this step-by-step guide to get up in running in less than 10
 created: 1597455376008
 ---
 
-# Getting Started
+| [home](/) | [contact us](/contact) | [textbase.js options](/docs/options) |
+# Getting Started with textbase.js
 
-This section is split into 2 sections. Automated setup and manual setup. If you're an absolute beginner, we recommend reading our about our [suggested tooling](/docs/tooling) and using the automated setup to get started, or waiting for the release of [Textbase Desktop](/desktop), which aims to simply these concepts further and enable the common public to use textbase.js with an easy-to-use, point-and-click, static website generator.
+ This section is split into two: automated setup and manual setup.
+ 
+ If you're an absolute beginner, we recommend reading our about our  [suggested tooling](/docs/tooling) and using the automated setup to get started, or waiting for the release of [Textbase Desktop](/desktop), which aims to simply these concepts further and enable the common public to use textbase.js with an easy-to-use, point-and-click, static website generator.
 
 ## Automated Setup
 
 We've created a 'blank' template, which sets up everything automatically for you.
 
-To create a project with `npx`, run:
+To create a project with `npx`, run in your terminal window:
 
 ```
 npx create-textbase-app my-app
@@ -58,15 +61,18 @@ Populate `./pages/index.md` with the following contents:
 Your `textbase.js` website is alive.
 ```
 
+<br />
 To start developing your application run `npm start`. This starts the development server on a random url, such as `http://localhost:59321`. You can set a specific port by setting [custom options](/docs/options).
+
+<br /><hr>
 
 So far, we get:
 
 - Automatic compilation based on your active template.
-- Live reload, so you can view your website in real-time.
+- Live reload, so you can view your website in real-time at a local url.
 - Static generation of `./pages/`.
 - Static file serving. `./public/` is mapped to `/`
 
-In addition, any textbase.js application is ready for production from the start.
+Aditionally, any textbase.js application is ready for production from the start.
 
 <br />[&larr; Back](/docs)
