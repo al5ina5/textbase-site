@@ -44,7 +44,7 @@ Next, head over to the [Getting Started](/docs/start) for an easy setup tutorial
 - [Page Meta & Variables](/docs/meta)
 - [Templates](/docs/templates)
 - [Options](/docs/options)
-- [Deploy](/docs/deploy)
+- [Deployment](/docs/deployment)
 - [FAQ](/docs/faq)
 - [Roadmap](/docs/roadmap)
 - [Back this Project](/back)
