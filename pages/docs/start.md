@@ -34,7 +34,8 @@ Optionally, open `package.json` and add the following `scripts`:
 
 ```
 "scripts": {
-	"start": "textbase",
+	"dev": "textbase",
+	"start": "textbase start",
 	"build": "textbase build"
 }
 ```

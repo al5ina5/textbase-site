@@ -24,4 +24,4 @@ You can use any text editor you like (TextEdit on macOS, NotePad on Windows), bu
 
 [Download](https://code.visualstudio.com/Download)
 
-<br />[&larr; Back]
+<br />[&larr; Back](/docs)

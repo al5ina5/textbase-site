@@ -11,6 +11,7 @@ Sometimes you'll need to uniqueify parts of the template, such as the `<title>` 
 ```
 ---
 title: About Us
+favanimal: Cats
 ---
 ```
 
@@ -19,7 +20,7 @@ title: About Us
 Your templates `index.html` will automatically inject your page options into matching `{{page.key}}` handlebars. To set the documents `<title>` based on the title option above, you'd simply:
 
 ```
-<title>{{page.title}}</title>
+<title>{{page.title} {{page.favanimal}}}</title>
 ```
 
 <br />[&larr; Back](/docs)
