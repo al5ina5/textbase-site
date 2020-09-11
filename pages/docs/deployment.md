@@ -15,6 +15,8 @@ textbase.js generates your site in _plain html, css, and js._ That means there i
 - An ~99/100 best practices score.
 - An ~99/100 SEO score.
 
+![textbase.js website with a near perfect Lighthouse score.](/img/perfect-score.png)
+
 ## Hosting
 
 Here are two _amazing_ and _totally free_ options to deploy your website in seconds.
