@@ -4,8 +4,8 @@ description: Learn how to generate more complex website. Modifying these setting
 
 created: 1597455375997
 ---
-
-# Options
+| [home](/) | [getting started](/docs/start) | [contact us](/contact) | 
+# texbase. js options
 
 The `_textbase.js` enables you to tweak your generation settings. Modifying these settings will alter the output contents of `_site` during the build process.
 
